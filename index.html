@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>DrivenEats</title>
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="Logo">
+      <h1>DrivenEats</h1>
+      <h2>Sua comida em 6 minutos</h2>
+    </div>
+    <div class="Refeicoes">Primeiro, seu prato</div>
+    <div class="Conjunto-prato">
+      <div class="prato" onclick="selecionarComida(this)">
+        <img src="imagens\projeto__driven-eats__imagens\pf_calabresa.png" />
+        <div class="opcao1">Calabresa saborosa</div>
+        <div class="opcao2">Com um pouco de batata, um pouco de salada</div>
+        <div class="opcao3">12,90</div>
+      </div>
+      <div class="prato" onclick="selecionarComida(this)">
+        <img src="imagens\projeto__driven-eats__imagens\pf_carne.jpg" />
+        <div class="opcao1">Carne saborosa</div>
+        <div class="opcao2">Com um pouco de batata, um pouco de salada</div>
+        <div class="opcao3">15,90</div>
+      </div>
+      <div class="prato" onclick="selecionarComida(this)">
+        <img src="imagens\projeto__driven-eats__imagens\pf_frango.jpg" />
+        <div class="opcao1">Frango saboroso</div>
+        <div class="opcao2">Com um pouco de batata, um pouco de salada</div>
+        <div class="opcao3">10,90</div>
+      </div>
+    </div>
+    <div class="Bebidas">Agora, sua bebida</div>
+    <div class="Conjunto-bebida">
+      <div class="bebida" onclick="selecionarBebida(this)">
+        <img src="imagens\projeto__driven-eats__imagens\coca.png" />
+        <div class="opcao1">Coca-cola</div>
+        <div class="opcao2">Lata 350 ml</div>
+        <div class="opcao3">5,20</div>
+      </div>
+      <div class="bebida" onclick="selecionarBebida(this)">
+        <img src="imagens\projeto__driven-eats__imagens\fanta.png" />
+        <div class="opcao1">Fanta laranja</div>
+        <div class="opcao2">Lata 350 ml</div>
+        <div class="opcao3">4,70</div>
+      </div>
+      <div class="bebida" onclick="selecionarBebida(this)">
+        <img src="imagens\projeto__driven-eats__imagens\suco.png" />
+        <div class="opcao1">Suco natural</div>
+        <div class="opcao2">300 ml</div>
+        <div class="opcao3">3,00</div>
+      </div>
+    </div>
+    <div class="Sobremesas">Por fim, sua sobremesa</div>
+    <div class="Conjunto-sobremesa">
+      <div class="sobremesa" onclick="selecionarSobremesa(this)">
+        <img src="imagens\projeto__driven-eats__imagens\pudim.jpg" />
+        <div class="opcao1">Pudim</div>
+        <div class="opcao2">Caseiro</div>
+        <div class="opcao3">7,50</div>
+      </div>
+      <div class="sobremesa" onclick="selecionarSobremesa(this)">
+        <img src="imagens\projeto__driven-eats__imagens\brownie.jpg" />
+        <div class="opcao1">Brownie</div>
+        <div class="opcao2">Chocolate</div>
+        <div class="opcao3">8,00</div>
+      </div>
+      <div class="sobremesa" onclick="selecionarSobremesa(this)">
+        <img src="imagens\projeto__driven-eats__imagens\mouse.jpg" />
+        <div class="opcao1">Mouse</div>
+        <div class="opcao2">Maracujá</div>
+        <div class="opcao3">8,50</div>
+      </div>
+    </div>
+    <div class="Finalizar">
+      <button onclick="finalizarPedido" class="botao">Selecione os 3 itens para fechar o pedido</button>
+    </div>
+
+    <script src="actions.js"></script>
+  </body>
+</html>

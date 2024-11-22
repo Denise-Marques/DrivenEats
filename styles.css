@@ -1,0 +1,182 @@
+body {
+  /* width: 614px; */
+  background-color: #eeeeee;
+  font-family: Roboto;
+
+  img {
+    width: 114px;
+    border-radius: 4px;
+  }
+}
+
+
+.Logo {
+  background-color: red;
+  color: white;
+  font-family: Righteous;
+  padding-top: 8px;
+  padding-bottom: 4px;
+  padding-left: 21px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 80px;
+  h1 {
+    font-size: 44px;
+  }
+
+  h2 {
+    font-size: 18px;
+    padding-top: 7px;
+    font-family: Roboto;
+    padding-bottom: 10px;
+  }
+}
+
+
+
+.Refeicoes {
+  margin-top: 102px;
+  font-family: righteous;
+  font-size: 26px;
+  padding-left: 21px;
+}
+
+.Bebidas {
+  font-family: righteous;
+  font-size: 26px;
+  padding-left: 21px;
+}
+
+.Sobremesas {
+  font-family: righteous;
+  font-size: 26px;
+  padding-left: 21px;
+}
+
+
+
+.opcao1 {
+  font-family: roboto;
+  font-size: 700;
+  color: #333333;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.opcao2 {
+  font-family: roboto;
+  font-size: 15px;
+  color: #a6a6a6;
+  font-weight: 300;
+  padding-bottom: 10px;
+}
+
+.opcao3 {
+
+  h1 {
+    font-family: roboto;
+    font-size: 16px;
+    color: #000000;
+    font-weight: 400;
+    padding-bottom: 10px;
+  }
+
+}
+
+
+
+.Conjunto-prato {
+  display: flex;
+  overflow-x: scroll;
+  scrollbar-width: none;
+  justify-content: justify;
+  align-items: center;
+}
+
+.Conjunto-bebida {
+  display: flex;
+  overflow-x: scroll;
+  scrollbar-width: none;
+}
+
+.Conjunto-sobremesa {
+  display: flex;
+  overflow-x: scroll;
+  scrollbar-width: none;
+}
+
+.prato {
+  width: 172px;
+  border-radius: 9px;
+  background-color: white;
+  padding: 10px;
+  margin: 25px 10px;
+  gap: 15px;
+
+  img {
+    width: 144px;
+  }
+}
+
+.bebida {
+  width: 172px;
+  border-radius: 9px;
+  background-color: white;
+  padding: 10px;
+  margin: 25px 10px;
+  gap: 15px;
+  img {
+    width: 144px;
+  }
+}
+
+.sobremesa {
+  width: 172px;
+  border-radius: 9px;
+  background-color: white;
+  padding: 10px;
+  margin: 25px 10px;
+  gap: 15px;
+  margin-bottom: 112px;
+  img {
+    width: 144px;
+  }
+}
+
+.Finalizar {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 92px;
+}
+
+.botao {
+  border: solid 1px gray;
+  border-radius: 50px;
+  color: white;
+  font-size: 20px;
+  background-color: #cbcbcb;
+  height: 50px;
+  width: 90%;
+}
+
+.Conferir {
+  display: none;
+}
+
+.selecionado {
+  border: 6px solid green;
+}
+
+.fundo-verde {
+  background-color: green;
+  border: solid 1px green;
+}
