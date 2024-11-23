@@ -25,19 +25,19 @@
         <img src="imagens\projeto__driven-eats__imagens\pf_calabresa.png" />
         <div class="opcao1">Calabresa saborosa</div>
         <div class="opcao2">Com um pouco de batata, um pouco de salada</div>
-        <div class="opcao3">12,90</div>
+        <div class="opcao3">12.90</div>
       </div>
       <div class="prato" onclick="selecionarComida(this)">
         <img src="imagens\projeto__driven-eats__imagens\pf_carne.jpg" />
         <div class="opcao1">Carne saborosa</div>
         <div class="opcao2">Com um pouco de batata, um pouco de salada</div>
-        <div class="opcao3">15,90</div>
+        <div class="opcao3">15.90</div>
       </div>
       <div class="prato" onclick="selecionarComida(this)">
         <img src="imagens\projeto__driven-eats__imagens\pf_frango.jpg" />
         <div class="opcao1">Frango saboroso</div>
         <div class="opcao2">Com um pouco de batata, um pouco de salada</div>
-        <div class="opcao3">10,90</div>
+        <div class="opcao3">10.90</div>
       </div>
     </div>
     <div class="Bebidas">Agora, sua bebida</div>
@@ -46,19 +46,19 @@
         <img src="imagens\projeto__driven-eats__imagens\coca.png" />
         <div class="opcao1">Coca-cola</div>
         <div class="opcao2">Lata 350 ml</div>
-        <div class="opcao3">5,20</div>
+        <div class="opcao3">5.20</div>
       </div>
       <div class="bebida" onclick="selecionarBebida(this)">
         <img src="imagens\projeto__driven-eats__imagens\fanta.png" />
         <div class="opcao1">Fanta laranja</div>
         <div class="opcao2">Lata 350 ml</div>
-        <div class="opcao3">4,70</div>
+        <div class="opcao3">4.70</div>
       </div>
       <div class="bebida" onclick="selecionarBebida(this)">
         <img src="imagens\projeto__driven-eats__imagens\suco.png" />
         <div class="opcao1">Suco natural</div>
         <div class="opcao2">300 ml</div>
-        <div class="opcao3">3,00</div>
+        <div class="opcao3">3.00</div>
       </div>
     </div>
     <div class="Sobremesas">Por fim, sua sobremesa</div>
@@ -67,25 +67,35 @@
         <img src="imagens\projeto__driven-eats__imagens\pudim.jpg" />
         <div class="opcao1">Pudim</div>
         <div class="opcao2">Caseiro</div>
-        <div class="opcao3">7,50</div>
+        <div class="opcao3">7.50</div>
       </div>
       <div class="sobremesa" onclick="selecionarSobremesa(this)">
         <img src="imagens\projeto__driven-eats__imagens\brownie.jpg" />
         <div class="opcao1">Brownie</div>
         <div class="opcao2">Chocolate</div>
-        <div class="opcao3">8,00</div>
+        <div class="opcao3">8.00</div>
       </div>
       <div class="sobremesa" onclick="selecionarSobremesa(this)">
         <img src="imagens\projeto__driven-eats__imagens\mouse.jpg" />
         <div class="opcao1">Mouse</div>
         <div class="opcao2">Maracujá</div>
-        <div class="opcao3">8,50</div>
+        <div class="opcao3">8.50</div>
       </div>
     </div>
     <div class="Finalizar">
-      <button onclick="finalizarPedido" class="botao">Selecione os 3 itens para fechar o pedido</button>
+      <button onclick="finalizarPedido()" class="botao">Selecione os 3 itens para fechar o pedido</button>
     </div>
-
+    <div class="cortina escondido">
+      <div class="verdinha">
+        <div class="bold">Confirme seu pedido</div>
+        <div class="prato-selecionado"></div>
+        <div class="bebida-selecionada"></div>
+        <div class="sobremesa-selecionada"></div>
+        <div class="total bold"></div>
+        <a class="ancora">Tudo certo, pode pedir!</a>
+        <button class="botao-cancelar" onclick="fecharCortina()">Cancelar</button>
+      </div>
+    </div>
     <script src="actions.js"></script>
   </body>
 </html>

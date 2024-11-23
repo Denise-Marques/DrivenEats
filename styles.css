@@ -172,15 +172,71 @@ body {
   width: 90%;
 }
 
-.Conferir {
-  display: none;
-}
 
 .selecionado {
-  border: 6px solid green;
+  border: 6px solid #32B72F;
 }
 
 .fundo-verde {
-  background-color: green;
-  border: solid 1px green;
+  background-color: #32B72F;
+}
+
+.escondido {
+  display: none;
+}
+
+.cortina {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.9);
+  z-index: 2;
+}
+
+.verdinha {
+  position: relative;
+  z-index: 3;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  background-color: rgba(80, 208, 116, 1);
+  border-radius: 9px;
+  color: white;
+  font-family: Roboto;
+  font-size: 22px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 1.5rem;
+  justify-content: space-around;
+}
+
+.botao-cancelar {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.ancora {
+  text-decoration: none;
+  border-radius: 100px;
+  background-color: white;
+  color:#32B72F;
+  padding: 15px 5px;
+  width: 95%;
+  text-align: center;
+  font-weight: 700;
 }
